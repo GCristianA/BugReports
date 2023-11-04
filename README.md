@@ -67,6 +67,8 @@
 
 **Title:** “Duration of the insurance” field is missing so we can’t search by using it as a criteria.
 
+**Steps to reproduce:**
+
 1.Enter the test environment using the agent/underwriter credentials.
 
 2.Select the INPATIENT type of policy
@@ -83,6 +85,8 @@
 ## Bug report #5:
 
 **Title:** “Duration of the insurance” field is missing so we can’t search by using it as a criteria.
+
+**Steps to reproduce:**
 
 1.Enter the test environment using the agent credentials.
 
