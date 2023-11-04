@@ -103,7 +103,7 @@
 **Actual Result:** You are allowed to create the policy.
 
 
-##Bug report #6:
+## Bug report #6:
 
 **Title:** You can generate the policy without inputing the complete address.
 
@@ -187,7 +187,7 @@
 **Actual Result:** You are not allowed to choose from a list for the “Relationship with Insured Person” field. Instead you have to the type the values which isn’t correct.
 
 
-##Bug report #10:
+## Bug report #10:
 
 **Title:** Identical citizenship not prompting an error as it should be
 
