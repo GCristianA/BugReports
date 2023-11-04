@@ -267,7 +267,7 @@
 
 5.Enter the insured person data.
 
-6. Reach the FATCA/DAC/CRS introduction and select “PJ” in the Contractor Type field.
+6.Reach the FATCA/DAC/CRS introduction and select “PJ” in the Contractor Type field.
 
 **Expected Result:** You should be able to complete the Contractor CAEN Code field after selecting the previous option.
 
