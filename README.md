@@ -194,15 +194,149 @@
 **Steps to reproduce:**
 
 1.Enter the Salesforce test environment using the agent credentials.
+
 2.Create a new opportunity 
+
 3.Complete the information regarding the policy type.
+
 4.Enter the policy holder data
+
 5.Enter the insured person data.
+
 6. Reach the FATCA/DAC/CRS introduction step and give an affirmative answer for the tax residence to a different country than Romania.
+
 7.Introduce the first citizenship(the second one is not mandatory and you are not prompted to enter this one too)
 
 **Expected Result:** You shouldn’t be able to introduced the same citizenship in the “Citizenship 1” and “Citizenship 2” fields.
 
 **Actual Result:** You are allowed to enter the same citizenship both fields.
+
+
+## Bug report #11:
+
+**Title:** Medical questionnaire doesn’t let you introduce more information in case of an affirmative answer for the “Diseases of the muscokeletal system”
+
+**Steps to reproduce:**
+
+1.Enter the Salesforce test environment using the agent credentials.
+
+2.Create a new opportunity 
+
+3.Complete the information regarding the policy type.
+
+4.Enter the policy holder data
+
+5.Enter the insured person data.
+
+6.Enter the questionnaire data for the insured person.
+
+**Expected Result:** For the “Diseases of the muscoskeletal system” if we select the affirmative answer a text box regarding more information about this problem should appear. 
+
+**Actual Result:** There’s no text box appearing when selecting the affirmative answer for question.
+
+
+## Bug report #12:
+
+**Title:** “Type” field in the new opportunity step should be mandatory
+
+**Steps to reproduce:**
+
+1.Enter the Salesforce test environment using the agent credentials.
+
+2.Create a new opportunity 
+
+3.Complete all required fields without “Type” and press save to move forward. 
+
+**Expected Result:** An error should appear telling you the “Type” field is mandatory which is missing at this moment.
+
+**Actual Result:** The process goes to the next step and you are prompted with the following error which makes it impossible to continue further in the process.
+
+## Bug report #13:
+
+**Title:** Not being able to complete the Contractor CAEN code field after selecting the Legal Person option.
+
+**Steps to reproduce:**
+
+1.Enter the Salesforce test environment using the agent credentials.
+
+2.Create a new opportunity 
+
+3.Complete the information regarding the policy type.
+
+4.Enter the policy holder data
+
+5.Enter the insured person data.
+
+6. Reach the FATCA/DAC/CRS introduction and select “PJ” in the Contractor Type field.
+
+**Expected Result:** You should be able to complete the Contractor CAEN Code field after selecting the previous option.
+
+**Actual Result:** You are not allowed to complete the Contractor CAEN Code field.
+
+## Bug report #14:
+
+**Title:** Phone number field shouldn’t allow text to be introduced it show be numeric only.
+
+**Steps to reproduce:**
+
+1.Enter the test environment using the agent credentials.
+
+2.Select the TERM24 type of policy
+
+3.Choose the New policy
+
+4.Introduce the data regarding the client 
+
+5.Reach the last step when you are prompted to introduce data for the address of the client.
+
+6.Try completing the phone number field with text instead of numbers.
+
+**Expected Result:** You should receive an error regarding the phone number field
+
+**Actual Result:** You don’t receive any type of error and you can generate the policy.
+
+
+## Bug report #15:
+
+**Title:** The address of the main policy holder can be skipped since no field related to it is mandatory.
+
+**Steps to reproduce:**
+
+1.Enter the test environment using the agent credentials.
+
+2.Select the TERM type of policy
+
+3.Choose the New policy
+
+4.Introduce the data regarding the client 
+
+5.Reach the last step when you are prompted to introduce data for the address of the client.
+
+6.Skip completing the address related fields.
+
+**Expected Result:** You should receive an error regarding the lack of the information in those fields
+
+**Actual Result:** You don’t receive any type of error and you can continue the process.
+
+
+## Bug report #16:
+
+**Title:** You can’t initiate the signature process before generating the policy
+
+**Steps to reproduce:**
+
+1.Enter the test environment using the agent credentials.
+
+2.Select the TRAVEL type of policy
+
+3.Choose the New policy
+
+4.Introduce the data regarding the client 
+
+5.Reach the last step when you are prompted to introduce the signature of the agent.
+
+**Expected Result:** A new window should pop out in which you can add the signature.
+
+**Actual Result:** You receive an error.
 
 
