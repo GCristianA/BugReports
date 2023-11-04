@@ -203,7 +203,7 @@
 
 5.Enter the insured person data.
 
-6. Reach the FATCA/DAC/CRS introduction step and give an affirmative answer for the tax residence to a different country than Romania.
+6.Reach the FATCA/DAC/CRS introduction step and give an affirmative answer for the tax residence to a different country than Romania.
 
 7.Introduce the first citizenship(the second one is not mandatory and you are not prompted to enter this one too)
 
